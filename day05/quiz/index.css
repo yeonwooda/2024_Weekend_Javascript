@@ -1,0 +1,55 @@
+/* .container {
+  width: 100vw;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.box {
+  display: flex;
+  align-content: flex-start;
+  flex-direction: column;
+  height: 200px;
+  border: 1px solid black;
+} */
+
+.cardList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  width: 100vw;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  border: 1px solid #dbdbdb;
+  padding: 20px 10px;
+}
+
+.left {
+  flex: 2;
+}
+
+.imageBox {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+}
+
+.imageBox > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+.right {
+  flex: 8;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
